@@ -1,0 +1,36 @@
+# Ignorar diretórios de compilação e saída
+bin/
+obj/
+
+# Ignorar arquivos temporários do Visual Studio
+*.user
+*.suo
+
+# Ignorar diretório de pacotes NuGet
+packages/
+
+# Ignorar arquivos de configuração pessoal
+*.sln.user
+*.csproj.user
+
+# Ignorar arquivos de log e exceção
+*.log
+*.exceptions
+
+# Ignorar arquivos de cache
+*.cache
+
+# Ignorar arquivos de configuração do Visual Studio
+.vs/
+
+# Ignorar arquivos de configuração do ReSharper
+_ReSharper*/
+*.ReSharper.user
+
+# Ignorar arquivos de configuração do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignorar arquivos de cache do Windows
+$RECYCLE.BIN/
